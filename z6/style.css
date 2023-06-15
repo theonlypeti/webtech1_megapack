@@ -1,0 +1,77 @@
+ #graf{
+     width:100%;
+     height:400px;
+ }
+
+ .amplitudeInput{
+     visibiliy: visible;
+     min-width: 50%;
+     margin-left:50px;
+     margin-top: 10px;
+ }
+
+ .inputField{
+    width: 40%;
+ }
+
+ .hiddenInput{
+     display: none;
+ }
+
+ .visibleInput{
+     display: block;
+ }
+
+ .sliderInput{
+     position:relative;
+     margin:auto;
+     background-color: #4ce2f5;
+     /*width:100%;*/
+ }
+
+ .sliderHandle{
+     position:absolute;
+     color: #ff6afb;
+     border:1px solid #4ce2f5;
+     min-width:30px;
+     pointer-events: none;
+     background-color: #4ce2f5;
+ }
+
+ .handleValue{
+     display: flex;
+     justify-content: center;
+ }
+
+ .controls{
+     padding-left: 50px;
+     padding-top: 20px;
+ }
+
+ button{
+     margin-right:10px;
+ }
+
+.bigBG{
+    background-color: rgba(177, 228, 243, 0.89);
+    width: 80%;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.30);
+    margin-left: 10px;
+    min-height: 100%;
+}
+
+body{
+    background-image: url("./images/bg.png");
+}
+.header{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Arial Black";
+    text-align: center;
+    background-color: rgba(177, 228, 243, 0.89);
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.30);
+}

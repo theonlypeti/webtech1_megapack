@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafikony</title>
+    <script src="customslider.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">Graf</header>
+<div class="bigBG">
+<div id="graf"></div>
+<div class="controls">
+    <button id="pausebutton" onclick="stopPlot()">Stop</button>
+    <input type="checkbox" id="trace1check" onclick="changeVisibility()" checked>Sinus
+    <input type="checkbox" id="trace2check" onclick="changeVisibility()" checked>Cosinus
+</div>
+<div class="controls">
+<input type="checkbox" onclick="swapInputs()">Vysoká presnosť
+</div>
+<div class="amplitudeInput">
+    <sample-component class="visibleInput inputField" max="100" min="0"></sample-component>
+
+    <input class="inputField hiddenInput" type="number" id="numberInput" value=1.0000 min="0" max="100" onchange="numberInput()">
+
+
+</div>
+    <h1>This relies on a data input from a server that no longer transmits</h1>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

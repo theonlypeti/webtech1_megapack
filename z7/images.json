@@ -1,0 +1,27 @@
+[
+    {
+        "filename": "fotecky001.jpg",
+        "title": "Motýľ",
+        "description": "Modráčik obyčajný / polyommatus icarus"
+    },
+    {
+        "filename": "fotecky002.jpg",
+        "title": "Ruže",
+        "description": "Ruža záhradná"
+    },
+    {
+        "filename": "fotecky003.jpg",
+        "title": "Západ slnka",
+        "description": "Krásny gradient"
+    },
+	{
+        "filename": "fotecky004.jpg",
+        "title": "Čmeľ záhradný",
+        "description": "Bombus pratorum"
+    },
+	{
+        "filename": "fotecky005.jpg",
+        "title": "Kvety",
+        "description": "Ibištek sýrsky / Hibiscus syriacus"
+    }
+]

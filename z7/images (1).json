@@ -1,0 +1,112 @@
+[
+    {
+        "filename": "bardonovo_1.JPG",
+        "title": "Ajax a Calico",
+        "description": "Kamarátstvo mačky a psa",
+        "date": "2019-07-28T13:46:00",
+        "gps": {
+            "lat": 48.11,
+            "lon": 18.42
+        },
+        "path": "./images/bardonovo_1.JPG"
+
+    },
+    {
+        "filename": "bardonovo_2.JPG",
+        "title": "Tabby",
+        "description": "Spachtoš",
+        "date": "2019-07-28T13:49:00",
+        "gps": {
+            "lat": 48.11,
+            "lon": 18.42
+        },
+        "path": "./images/bardonovo_2.JPG"
+    },
+    {
+        "filename": "bardonovo_3.JPG",
+        "title": "Úsmev",
+        "description": "Pózujú",
+        "date": "2019-07-28T13:57:00",
+        "gps": {
+            "lat": 48.11,
+            "lon": 18.42
+        }
+    },
+    {
+        "filename": "budapest.JPG",
+        "title": "Budapest",
+        "description": "Výhlad z budapešťského hradu",
+        "date": "2017-06-03T21:06:46",
+        "gps": {
+            "lat": 47.497912,
+            "lon": 19.040235
+        },
+        "path": "./images/budapest.JPG"
+    },
+    {
+        "filename": "dedinka_1.JPG",
+        "title": "Labuť",
+        "description": "Pláva po jazierke",
+        "date": "2019-08-06T18:31:48",
+        "gps": {
+            "lat": 48.066048,
+            "lon": 18.422514
+        },
+        "path": "./images/dedinka_1.JPG"
+    },
+    {
+        "filename": "dedinka_2.JPG",
+        "title": "Jazierko",
+        "description": "Západ slnka nad jazierkom",
+        "date": "2019-08-06T18:53:11",
+        "gps": {
+            "lat": 48.066048,
+            "lon": 18.422514
+        },
+        "path": "./images/dedinka_2.JPG"
+    },
+    {
+        "filename": "dedinka_3.JPG",
+        "title": "Jazierko 2",
+        "description": "Západ slnka nad jazierkom",
+        "date": "2019-08-06T19:44:47",
+        "gps": {
+            "lat": 48.066048,
+            "lon": 18.422514
+        },
+        "path": "./images/dedinka_3.JPG"
+    },
+    {
+        "filename": "ipelsky_sokolec.JPG",
+        "title": "Záhradka",
+        "description": "Krásna záhradka v noci s hviezdami",
+        "date": "2017-09-09T20:35:15",
+        "gps": {
+            "lat": 48.023729,
+            "lon": 18.802516
+        },
+        "path": "./images/ipelsky_sokolec.JPG"
+    },
+    {
+        "filename": "pozba.JPG",
+        "title": "Na trati",
+        "description": "Kolajnice Pozba",
+        "date": "2019-02-28T18:24:59",
+        "gps": {
+            "lat": 48.116667,
+            "lon": 18.383333
+        },
+        "path": "./images/pozba.JPG"
+    },
+    {
+        "filename": "vysne_nad_hronom.JPG",
+        "title": "Lesík",
+        "description": "Poľná cesta lesíkom",
+        "date": "2019-07-22T14:25:59",
+        "gps": {
+            "lat": 48.163333,
+            "lon": 18.584444
+        },
+        "path": "./images/vysne_nad_hronom.JPG"
+    }
+]

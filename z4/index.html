@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <header>
+    <h2>Zadanie 4 - Tabulka</h2>
+    </header>
+    <form>
+        <h4>Malá násobilka</h4>
+        <div>
+            <div>
+                <label for="x">X:</label>
+                <input id="x" type="number" placeholder="Zadajte číslo medzi 1-9" required>
+            </div>
+            <div>
+                <label for="y">Y:</label>
+                <input id="y" type="number" placeholder="Zadajte číslo medzi 1-9" required>
+            </div>
+            <div>
+                <button class="button" id="go" type="button" onclick="vypocitaj()">Generuj</button>
+                <!--Dufam netreba to onchange checkovat obe inputy a tak to naznacovat pojednomky-->
+            </div>
+        </div>
+    </form>
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+    <table id="tabulka"></table>
+    <button class="button" type="button" onclick="closeModal()">OK</button>
+    </div>
+</div>
+<script src="calculate.js"></script>
+</body>
+</html>

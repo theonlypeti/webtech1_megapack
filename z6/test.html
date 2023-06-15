@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+            class SampleComponent extends HTMLElement {
+
+                connectedCallback() { //zbehne ked sa objavi na stranke
+                    console.log("objavil som sa");
+
+                    this.innerHTML = `
+                                                <style>
+                                                    sample-component{ /*takto sa styluje*/
+                                                        color:red;
+                                                        font-size: 30px;
+                                                    }
+                                                </style>
+
+                                                <div> My Component </div> <!--tuto sa pise htmlko-->
+                                                <h4> `+this.getAttribute("nadpis")+` </h4> <!--this je sample-component z 39 riadku, z toho vyberem nadpis atribut-->
+                                                <p> testik test test </p>
+                                                <p> `+this.innerHTML+` </p> <!--this je sample-component z 39 riadku, z toho vyberem text z medzi parnych znaciek-->
+                                                <button id="logoljal"> Klikni </button>`;
+                    console.log(this);
+                    // document.getElementById("logoljal").addEventListener("click",event=>this.loguj(event));
+                    document.getElementById("logoljal").onclick = function(event){console.log(event)};
+                    document.getElementById("logoljal").onclick = function(event){this.loguj(event)};
+                };
+
+                loguj(event){
+                    console.log("zec mi korndog");
+                }
+
+            }
+    </script>
+</head>
+
+<body>
+<sample-component nadpis="Saňo">vnutorny tekst</sample-component> <!--takto davas do htmlka.-->
+</body>
+
+<script>
+    if (!customElements.get('sample-component')) {
+        ( customElements.define('sample-component', SampleComponent)); //registruje SampleComponentet z js, ako html element menom sample-component
+    }
+
+</script>
+</html>

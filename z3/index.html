@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie 3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<form action="https://iolab.sk/form2mail/form2mail.php" method="post" enctype="multipart/form-data" id="formular">
+    <div class="bigrow">
+        <div class="column">
+            <input type="hidden" name="apikey" value="62bef627512deab9088fcf5f10acf3d7">
+            <input type="hidden" name="from" value="dontusemine@thx.sk">
+            <input type="hidden" name="sender" value="No longer used">
+            <input type="hidden" name="to" value="example@gmail.com">
+            <input type="hidden" name="subject" value="Formulár">
+<!--            <input type="hidden" name="redirectOk" value="https://webte1.fei.stuba.sk/~xbogar/zad3/index.html">-->
+<!--            <input type="hidden" name="redirectFalse" value="https://webte1.fei.stuba.sk/~xbogar/zad3/index.html">-->
+            <input type="hidden" name="redirectOk" value="https://example.com">
+            <input type="hidden" name="redirectFalse" value="https://example.com">
+<!--            Yeah these adresses will no longer work up here but oh well-->
+
+            <div class="row">
+            <h4 class="row">Aké zvieratká máte radi?</h4>
+
+                <input type="checkbox" id="catcheckbox" name="Favourite animals1" value="Cat">
+                <label for="catcheckbox">Mašišky</label>
+
+
+                <input type="checkbox" id="dogcheckbox" name="Favourite animals2" value="Dog">
+                <label for="dogcheckbox">Havkovia</label>
+
+
+                <input type="checkbox" id="othercheckbox">
+                <label for="othercheckbox">Iné</label>
+                <input type="text" name="Other Favourite Animal" id="otherAnimal">
+            </div>
+
+
+            <div class="row">
+                <h4>Máte rád Webtechy?</h4>
+                <input type="radio" id="Nie" name="Likes Webtech" value="False">
+                <label for="Nie">Nie</label><br>
+                <input type="radio" id="Ano" name="Likes Webtech" value="True">
+                <label for="Ano">Ano</label><br>
+                <label class="webtechquestion" for="lebo">Prečo?</label><br>
+                <input class="webtechquestion" name="Reason" type="text" id="lebo" placeholder="Napíš niečo">
+            </div>
+
+            <div class="dropdowns">
+                <select id="parent" name="Dropdown 1">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                </select>
+
+                <select id="child" name="Dropdown 2"></select>
+
+                <select id="childchild" name="Dropdown 3"></select>
+            </div>
+            <div class="row">
+                <label for="datum">Dátum narodenia</label>
+                <input type="date" id="datum" name="DoB" required>
+            </div>
+            <div class="row">
+                <label for="age">Vek</label>
+                <input type="number" id="age" name="Age" required>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <label for="mesto" id="mestotext">Mesto</label>
+                <input type="text" id="mesto" name="City" required>
+            </div>
+
+            <div class="row">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="E-mail" placeholder="example@gmail.com"
+                       onchange="validateEmail()" required>
+            </div>
+            <div class="row">
+                <textarea name="Textbox comment" id="textarea" cols="30" rows="8"
+                          placeholder="Námety a nápady"></textarea>
+            </div>
+            <input type="hidden" name="Name" value="Name was here">
+            <div class="row">
+                <div class="button-wrapper">
+                    <button type="button" onclick="validateEverything()">Odošli</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#instructions {
+    position: absolute;
+    margin: 20px;
+    width: 25%;
+    top: 0;
+    bottom: 20%;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: scroll;
+    font-family: sans-serif;
+}
+
+.busstop{
+    padding: 2px;
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+}
+
+.green{
+    background-color: limegreen;
+}
+
+.night {
+    background-color: black;
+}
+
+.grey{
+    background-color: dimgrey;
+}
+
+.blue{
+    background-color: cornflowerblue;
+}
+
+.lime{
+    background-color: #4eec4e;
+}
